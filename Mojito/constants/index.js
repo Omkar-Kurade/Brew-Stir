@@ -1,7 +1,7 @@
 const navLinks = [
  {
 	id: "cocktails",
-	title: "Cocktails",
+	title: "Coffee",
  },
  {
 	id: "about",
@@ -19,28 +19,28 @@ const navLinks = [
 
 const cocktailLists = [
  {
-	name: "Chapel Hill Shiraz",
-	country: "AU",
-	detail: "Battle",
-	price: "$10",
+  name: "Ethiopian Yirgacheffe",
+  country: "ET",
+  detail: "Single Origin",
+  price: "$6",
  },
  {
-	name: "Caten Malbee",
-	country: "AU",
-	detail: "Battle",
-	price: "$49",
+  name: "Colombian Supremo",
+  country: "CO",
+  detail: "Medium Roast",
+  price: "$5",
  },
  {
-	name: "Rhino Pale Ale",
-	country: "CA",
-	detail: "750 ml",
-	price: "$20",
+  name: "Guatemalan Antigua",
+  country: "GT",
+  detail: "Dark Roast",
+  price: "$5",
  },
  {
-	name: "Irish Guinness",
-	country: "IE",
-	detail: "600 ml",
-	price: "$29",
+  name: "Sumatra Mandheling",
+  country: "ID",
+  detail: "Full Body",
+  price: "$6",
  },
 ];
 
@@ -87,17 +87,17 @@ const profileLists = [
 ];
 
 const featureLists = [
- "Perfectly balanced blends",
- "Garnished to perfection",
- "Ice-cold every time",
- "Expertly shaken & stirred",
+  "Expertly roasted beans",
+ "Perfect grind for every brew",
+ "Balanced flavor profiles",
+ "Crafted by skilled baristas",
 ];
 
 const goodLists = [
- "Handpicked ingredients",
- "Signature techniques",
- "Bartending artistry in action",
- "Freshly muddled flavors",
+  "Ethically sourced beans",
+ "Freshly roasted in small batches",
+ "Precision brewing techniques",
+ "Rich aromas and smooth finishes",
 ];
 
 const storeInfo = {
@@ -125,7 +125,7 @@ const socials = [
  {
 	name: "X (Twitter)",
 	icon: "/images/x.png",
-	url: "#",
+	url: "https://x.com/Omkar_kurade_14",
  },
  {
 	name: "Facebook",

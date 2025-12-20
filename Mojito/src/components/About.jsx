@@ -4,12 +4,10 @@ import { SplitText } from "gsap/all";
 
 const About = () => {
     useGSAP(() => {
-
-         const scrollTimeLine = gsap.timeline({
+        const scrollTimeLine = gsap.timeline({
             scrollTrigger: {
                 trigger: "#about",
                 start: "top center",
-                
             },
         });
 
@@ -17,7 +15,6 @@ const About = () => {
             type: "words",
         });
 
-       
         scrollTimeLine
             .from(titleSplit.words, {
                 opacity: 0,
@@ -40,18 +37,18 @@ const About = () => {
     return (
         <div id="about">
             <div className="content">
-                <div className="md:col-span-8">
-                    <p className="badge">Best Cocktails</p>
+                <div className="md:col-span-8 mx-2">
+                    <p className="badge">Best Coffe & Mocktails</p>
                     <h2>
-                        Where every details matters <span className="text-white">-</span>
-                        from muddle to granish
+                       Where every detail matters  <span className="text-white">-</span>
+                        — from bean to brew.
                     </h2>
                 </div>
-                <div className="sub-content">
+                <div className="sub-content mx-2">
                     <p>
-                        Every cocktail we serve is a reflection of our obsession with detail
-                        — from the first muddle to the final garnish. That care is what
-                        turns a simple drink into something truly memorable.
+                        Every brew we serve is crafted with precision — from carefully
+                        sourced beans to the last aromatic pour. It’s this attention to
+                        detail that transforms coffee into an experience worth remembering.
                     </p>
                     <div>
                         <p className="md:text-3xl text-xl fount-bold">
@@ -61,7 +58,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="top-grid">
+            <div className="top-grid mt-4">
                 <div className="md:col-span-3">
                     <div className="noisy">
                         <img src="/images/abt1.png" alt="grid-img-1" />
